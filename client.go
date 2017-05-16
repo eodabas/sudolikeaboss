@@ -12,7 +12,8 @@ const DEFAULT_TIMEOUT_STRING_SECONDS = "30"
 const DEFAULT_HOST = "sudolikeaboss://local"
 const DEFAULT_WEBSOCKET_URI = "ws://127.0.0.1:6263/4"
 const DEFAULT_WEBSOCKET_PROTOCOL = ""
-const DEFAULT_WEBSOCKET_ORIGIN = "chrome-extension://aomjjhallfgjeglblehebfpbcfeobpgk"
+// const DEFAULT_WEBSOCKET_ORIGIN = "chrome-extension://aomjjhallfgjeglblehebfpbcfeobpgk"
+const DEFAULT_WEBSOCKET_ORIGIN = "chrome-extension://phicbbndgmmpogmijjkbmdhpioaieaha"
 
 func LoadConfiguration() *onepass.Configuration {
 	defaultHost := os.Getenv("SUDOLIKEABOSS_DEFAULT_HOST")
